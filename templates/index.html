@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Digit Recognizer</title>
+  <style>
+    canvas { border: 2px solid black; background-color: black; }
+    #result { font-size: 20px; margin-top: 10px; }
+  </style>
+</head>
+<body>
+  <h2>Draw a Digit (0–9)</h2>
+  <canvas id="canvas" width="280" height="280"></canvas><br>
+  <button onclick="predict()">Predict</button>
+  <button onclick="clearCanvas()">Clear</button>
+  <p id="result">Prediction: </p>
+  <script src="/static/script.js"></script>
+</body>
+</html>
